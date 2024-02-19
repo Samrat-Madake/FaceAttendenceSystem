@@ -131,7 +131,7 @@ while True:
             cv2.putText(imgBackground, str(studentInfo['Name']), (808 + offset, 445),
                         cv2.FONT_HERSHEY_COMPLEX, 1, (50, 50, 50), 1)
 
-            imgBackground[187:187 + 216, 905:905 + 216] = imgStudent
+            imgBackground[176:176 + 216, 909:909 + 216] = imgStudent
 
         counter += 1
 
